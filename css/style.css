@@ -1,80 +1,84 @@
 :root {
-    --color-primary: #2584ff;
-    --color-secondary: #00d9ff;
-    --color-accent: #ff3400;
-    --color-headings: #1b0760;
-    --color-body: #918ca4;
-    --color-body-darker: #5c5577;
-    --color-border: #ccc;
-    --border-radius: 30px;
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+  --color-body-darker: #5c5577;
+  --color-border: #ccc;
+  --border-radius: 30px;
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
+div.class {
+}
+.class div {
+}
 body {
-    color: var(--color-body);
-    font-family: Inter, Arial, Helvetica, sans-serif;
-    font-size: 2.4rem;
-    line-height: 1.5;
+  color: var(--color-body);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
 }
 .overflow__text {
-    width: 60%;
-    height: 100px;
-    margin: 20px auto;
-    border: 1px solid red;
-    background-color: aqua;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  width: 60%;
+  height: 100px;
+  margin: 20px auto;
+  border: 1px solid red;
+  background-color: aqua;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .position__container {
-    border: 1px solid #1b0760;
-    width: 60%;
-    height: 600px;
-    /* margin: 20px auto; */
-    position: relative;
+  border: 1px solid #1b0760;
+  width: 60%;
+  height: 600px;
+  /* margin: 20px auto; */
+  position: relative;
 }
 
-.position__container__box{
-height: 100px;
-width: 100px;
-border: 1px solid red;
+.position__container__box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
 }
 .box3 {
-    position: absolute;
-    left: 50px;
+  position: absolute;
+  left: 50px;
 }
 
 .full-blown-container {
-    height: 200vh;
-    width: 100vw;
+  height: 200vh;
+  width: 100vw;
 }
 
 .sticker {
-    position: sticky;
-    top:0;
+  position: sticky;
+  top: 0;
 }
 
 .media_queries {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 @media screen and (min-width: 768px) {
-    .media_queries {
-        background-color: #ff3400;
-    }
+  .media_queries {
+    background-color: #ff3400;
+  }
 }
 
 form {
-    width: 500px;
-    padding: 20px;
+  width: 500px;
+  padding: 20px;
 }

@@ -1,3 +1,5 @@
+https://javascript.info/browser-environment --> A good starting point
+
 # what are semantics in HTML
 
 # what to define in head sections?
