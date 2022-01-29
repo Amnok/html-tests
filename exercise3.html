@@ -12,6 +12,7 @@
     <p>
         Write a function createTree that creates a nested ul/li list from the nested object.
     </p>
+    <div id="container"></div>
     <script>
         let data = {
             "Fish": {
@@ -29,16 +30,29 @@
                 }
             }
         };
+
         let container = document.getElementById('container');
-        createTree(container, data); // creates the tree in the container
+        createTree(data, container); // creates the tree in the container
 
-        function createTree(container, data) {
+        function createTree(data, container) {
+            const ul = document.createElement('ul');
+            Object.entries(data).forEach(([key, val]) => {
+                if (typeof val === 'object' && Object.keys(val).length > 0) {
+                    const li = document.createElement('li');
+                    li.textContent = key;
+                    ul.append(li);
+                    createTree(val, li);
 
+                } else {
+                    const li = document.createElement('li');
+                    li.textContent = key;
+                    ul.append(li);
+                }
+            });
+            container.append(ul);
         }
 
     </script>
-
-    <div id="container"></div>
 </body>
 
 </html>
