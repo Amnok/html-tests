@@ -1,29 +1,35 @@
 <!doctype html>
 
+<head>
+    <style>
+        #container {
+            margin: 3rem;
+            background-color: rgb(255, 255, 204);
+            border: 4px dashed black;
+        }
+
+        #contained {
+            margin: 1rem;
+            border-top: 24px black solid;
+            padding: 0px 28px;
+            overflow: auto;
+            background-color: white;
+        }
+    </style>
+</head>
+
 <body>
-    <main style="position: relative" id="main">
-        <article>
-            <div id="example" style="position: absolute; left: 180px; top: 180px; border: 1px solid red;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quia omnis aliquid quibusdam sapiente in
-                vel quas maxime et amet. Recusandae tempore nesciunt voluptatem quasi voluptatibus unde rem animi est?
-                Sapiente nisi vel rem, voluptate aliquam reiciendis id omnis placeat autem sint laboriosam et pariatur
-                non dolores sed? Dolores necessitatibus ut quis, commodi, esse eum, rem nobis mollitia ullam molestias
-                assumenda blanditiis dicta voluptatem! Nihil a facere, maxime ullam eaque velit sint aspernatur minima
-                quo quia doloribus laboriosam vitae quas asperiores itaque quaerat dicta modi iste, dolores nemo
-                blanditiis rerum quidem labore? Impedit cum eveniet beatae cupiditate dolores non aut quos fugit vero
-                officia illo assumenda saepe odit eligendi, fugiat iure, ducimus sunt ut alias explicabo facere ex, quo
-                illum officiis. Nostrum eaque natus pariatur consectetur, unde tempora animi dolores voluptatibus
-                accusamus sint quae est sequi at dolore, itaque iste omnis inventore accusantium ullam rem minus eum.
-                Exercitationem non amet corrupti repellat facilis minus provident veritatis consequatur omnis dolor quas
-                beatae porro quaerat, dignissimos eveniet tenetur? Impedit deserunt repellat dicta aliquid commodi
-                veniam at corporis voluptatum quia nam, iusto modi dolore culpa dolorum cupiditate repudiandae hic animi
-                tenetur sed unde dignissimos tempore quasi eaque? Maxime alias laborum optio libero laboriosam!
-            </div>
-        </article>
-    </main>
+    <div id="container">
+        <div id="contained">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
     <script>
-        console.log(example.offsetParent.id); // main
-        console.log(example.offsetLeft); // 180 (note: a number, not a string "180px")
-        console.log(example.offsetTop); // 180
+        const container = document.querySelector('#container');
+        console.log('container', container.clientTop);
+        const contained = document.querySelector('#contained');
+        console.log('contained', contained.clientTop);
     </script>
 </body>
