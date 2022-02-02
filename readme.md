@@ -59,3 +59,10 @@ returns the number of pixels that the document is currently scrolled horizontall
 returns the number of pixels that the document is currently scrolled vertically.
 
 # scrollBy, scrollTo, scrollIntoView
+
+# DOM Navigation
+
+children – only those children that are element nodes.
+firstElementChild, lastElementChild – first and last element children.
+previousElementSibling, nextElementSibling – neighbor elements.
+parentElement – parent element.
