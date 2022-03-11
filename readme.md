@@ -1,3 +1,13 @@
+# window is at the root of all.
+
+# alert( document.documentElement.parentNode ); // document , alert( document.documentElement.parentElement ); // null
+
+# For all nodes: parentNode, childNodes, firstChild, lastChild, previousSibling, nextSibling.
+
+# For element nodes only: parentElement, children, firstElementChild, lastElementChild, previousElementSibling, nextElementSibling.
+
+# elem.matches()
+
 All methods "getElementsBy\*" return a live collection. Such collections always reflect the current state of the document and “auto-update” when it changes.
 
 div.insertAdjacentHTML('beforebegin', '<p>Hello</p>');
@@ -66,3 +76,5 @@ children – only those children that are element nodes.
 firstElementChild, lastElementChild – first and last element children.
 previousElementSibling, nextElementSibling – neighbor elements.
 parentElement – parent element.
+
+# abbr, quotation, superscript, subscript, pre, kbd, time
