@@ -73,3 +73,7 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 # BEM
 
 # importat meta tags and open graph protocol (all meta tags)
+
+# min-width -> greater then or equal to
+
+# max-width -> less then or equal to
