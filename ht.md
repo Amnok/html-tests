@@ -2,6 +2,8 @@ https://javascript.info/browser-environment --> A good starting point
 
 # what are semantics in HTML
 
+# usage of figure element
+
 # what to define in head sections?
 
 # various meta tags ? also what are open graph meta tags ?
@@ -17,6 +19,8 @@ https://3perf.com/talks/web-perf-101/
 https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
 # Web components
+
+# css content visibility
 
 # DOM & shadow DOM
 
@@ -77,3 +81,14 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 # min-width -> greater then or equal to
 
 # max-width -> less then or equal to
+
+# DOM manipulation methods
+
+- Method Searches by... Can call on an element? Live?
+- querySelector CSS-selector ✔ -
+- querySelectorAll CSS-selector ✔ -
+- getElementById id - -
+- getElementsByName name - ✔
+- getElementsByTagName tag or '\*' ✔ ✔
+- getElementsByClassName class ✔ ✔
+- https://javascript.info/basic-dom-node-properties
