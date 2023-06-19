@@ -26,7 +26,9 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
 # CSS layouts (Flex, Grid, Floats)
 
-# css Units
+# margin collapsing
+
+# css Units(relative vs absoulute)
 
 # CSS responsives
 
