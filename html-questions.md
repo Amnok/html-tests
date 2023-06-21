@@ -20,7 +20,7 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
 # Web components
 
-# css content visibility
+# css content visibility (display vs visibility vs opacity)
 
 # DOM & shadow DOM
 
@@ -32,9 +32,15 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
 # CSS responsives
 
+# line-height vs letter spacing vs word-spacing
+
+# character unit(ex - 50ch)
+
 # what is box-model
 
 # block vs inline vs inline-block
+
+# text-indent , text-align, text-decoration, white-space, text-overflow, line-clamp, multi-column-text
 
 # where to use box-sizing
 
