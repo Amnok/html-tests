@@ -2,6 +2,10 @@ https://javascript.info/browser-environment --> A good starting point
 
 # what are semantics in HTML
 
+main, aside, nav, header, footer, section,article, figure, mark, time, date,
+
+article - to represent an independent piece of content
+
 # usage of figure element
 
 # what to define in head sections?
@@ -26,6 +30,10 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
 # CSS layouts (Flex, Grid, Floats)
 
+# css selectors(id, class, element, attribute)
+
+# css relational selectors
+
 # margin collapsing
 
 # css Units(relative vs absoulute)
@@ -44,7 +52,17 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
 # where to use box-sizing
 
-# difference b/w pseudo classes ans pseudo selectors
+# description lists (dl, dt,dd)
+
+# difference b/w pseudo classes ans pseudo elements
+
+pseudo classes ->
+to style an element in a particular state
+:first-child,first-of-type,last-of-type,nth-child,link,visited,focus
+
+pseudo elements ->
+to style part of an element
+::first-letter, first-letter,selection,after,before
 
 # overflow properties and their usages
 
@@ -58,6 +76,8 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
 # lists and tables
 
+# datalist(suggestion list)
+
 # why do we use normalize css
 
 # selectors specificity
@@ -65,6 +85,12 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 # inheritance in CSS
 
 # px vs % vs em vs rem (measuring units)
+
+# css filters
+
+# image srcset
+
+# art direction
 
 # positioning (relative vs absoulute vs fixed vs sticky)
 
