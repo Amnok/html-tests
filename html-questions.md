@@ -121,6 +121,8 @@ https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
 ### - max-width -> less then or equal to
 
+### images on different devices (from mosh html part 2 course)
+
 ### - DOM manipulation methods
 
 - Method Searches by... Can call on an element? Live?
