@@ -1,122 +1,127 @@
+# HTML/CSS Questions
+
 https://javascript.info/browser-environment --> A good starting point
 
-# what are semantics in HTML
+### - what are semantics in HTML
 
-main, aside, nav, header, footer, section,article, figure, mark, time, date,
+- main, aside, nav, header, footer, section,article, figure, mark, time, date,
 
-article - to represent an independent piece of content
+- article - to represent an independent piece of content
 
-# usage of figure element
+### - usage of figure element
 
-# what to define in head sections?
+- it is used to group together self-contained element
+- figure can wrap audio, video, img as well
+- used mostly with figcaption
 
-# various meta tags ? also what are open graph meta tags ?
+### - what to define in head sections?
 
-https://ahrefs.com/blog/open-graph-meta-tags/
-https://www.freecodecamp.org/news/meta-tag-in-html-what-is-metadata-and-meta-description-example/
-https://www.youtube.com/watch?v=SElOdK2qTpI
+### - various meta tags ? also what are open graph meta tags ?
 
-# Preload vs prefetch
+- https://ahrefs.com/blog/open-graph-meta-tags/
+- https://www.freecodecamp.org/news/
+- https://www.youtube.com/watch?v=SElOdK2qTpI
+- https://www.youtube.com/watch?v=bi5bfH_gVWE
+
+### - Preload vs prefetch
 
 https://3perf.com/blog/link-rels
 https://3perf.com/talks/web-perf-101/
 https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
-# Web components
+### - Web components
 
-# css content visibility (display vs visibility vs opacity)
+### - css content visibility (display vs visibility vs opacity)
 
-# DOM & shadow DOM
+### - DOM & shadow DOM
 
-# CSS layouts (Flex, Grid, Floats)
+### - CSS layouts (Flex, Grid, Floats)
 
-# css selectors(id, class, element, attribute)
+### - css selectors(id, class, element, attribute)
 
-# css relational selectors
+### - css relational selectors
 
-# margin collapsing
+### - margin collapsing
 
-# css Units(relative vs absoulute)
+### - css Units(relative vs absoulute)
 
-# CSS responsives
+### - CSS responsives
 
-# line-height vs letter spacing vs word-spacing
+### - line-height vs letter spacing vs word-spacing
 
-# character unit(ex - 50ch)
+### - character unit(ex - 50ch)
 
-# what is box-model
+### - what is box-model
 
-# block vs inline vs inline-block
+### - block vs inline vs inline-block
 
-# text-indent , text-align, text-decoration, white-space, text-overflow, line-clamp, multi-column-text
+### - text-indent , text-align, text-decoration, white-space, text-overflow, line-clamp, multi - -column-text
 
-# where to use box-sizing
+### where to use box-sizing
 
-# description lists (dl, dt,dd)
+### - description lists (dl, dt,dd)
 
-# difference b/w pseudo classes ans pseudo elements
+### - difference b/w pseudo classes ans pseudo elements
 
-pseudo classes ->
-to style an element in a particular state
-:first-child,first-of-type,last-of-type,nth-child,link,visited,focus
+- pseudo classes
+  -- to style an element in a particular state
+  -- examples :- :first-child,first-of-type,last-of-type,nth-child,link,visited,focus
 
-pseudo elements ->
-to style part of an element
-::first-letter, first-letter,selection,after,before
+- pseudo elements
+  -- to style part of an element
+  -- examples :- ::first-letter, first-letter,selection,after,before
 
-# overflow properties and their usages
+### overflow properties and their usages
 
-# what are entities in HTML
+### - what are entities in HTML
 
-# what are hyperlinks ? internal vs external hyperlinking ? hyperlinks vs buttons ? different kind of targets
+### - what are hyperlinks ? internal vs external hyperlinking ? hyperlinks vs buttons ? different kind of targets
 
-# different properties of images and object- fit
+### different properties of images and object- fit
 
-# Audio and video elemnts different attributes
+### - Audio and video elemnts different attributes
 
-# lists and tables
+### - lists and tables
 
-# datalist(suggestion list)
+### - datalist(suggestion list)
 
-# why do we use normalize css
+### - why do we use normalize css
 
-# selectors specificity
+### - selectors specificity
 
-# inheritance in CSS
+### - inheritance in CSS
 
-# px vs % vs em vs rem (measuring units)
+### - px vs % vs em vs rem (measuring units)
 
-# css filters
+### - css filters
 
-# image srcset
+### - image srcset
 
-# art direction
+### - art direction
 
-# positioning (relative vs absoulute vs fixed vs sticky)
+### - positioning (relative vs absoulute vs fixed vs sticky)
 
-# flex (flex grow, flex shrink, flex basis)
+### - flex (flex grow, flex shrink, flex basis)
 
-# flex (justify-content, align-items, align-content)
+### - flex (justify-content, align-items, align-content)
 
-# media queries with examples
+### - media queries with examples
 
-# what are CSS sprites
+### - what are CSS sprites
 
-# images and its types (raster vs vector)
+### - images and its types (raster vs vector)
 
-# transformations, transitions and animatons
+### - transformations, transitions and animatons
 
-# object oriented CSS
+### - object oriented CSS
 
-# BEM
+### - BEM
 
-# importat meta tags and open graph protocol (all meta tags)
+### - min-width -> greater then or equal to
 
-# min-width -> greater then or equal to
+### - max-width -> less then or equal to
 
-# max-width -> less then or equal to
-
-# DOM manipulation methods
+### - DOM manipulation methods
 
 - Method Searches by... Can call on an element? Live?
 - querySelector CSS-selector ✔ -
